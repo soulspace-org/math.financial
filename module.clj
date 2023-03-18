@@ -4,7 +4,7 @@
  :type :library
  :version "0.7.0"
  :description "The math.financial library contains financial math functions in Clojure."
- :scm-url "https://github.com/lsolbach/CljMath"
+ :scm-url "https://github.com/soulspace-org/math.financial"
  :plugins [["org.soulspace.baumeister/ClojurePlugin"]
            ["org.soulspace.baumeister/ClojureTestPlugin"]
            ["org.soulspace.baumeister/PackagePlugin"]]

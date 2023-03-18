@@ -13,4 +13,5 @@
 ;                 [org.soulspace.clj/math.core "0.8.0"]]
 
   :test-paths ["test"]
+  :scm {:name "git" :url "https://github.com/soulspace-org/math.financial"}
   :deploy-repositories [["clojars" {:sign-releases false :url "https://clojars.org/repo"}]])

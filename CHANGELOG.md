@@ -5,6 +5,7 @@ Version 0.7.0
 -------------
 * added support for clojurescript by moving the code to .cljc
 * bug fixing and docstring enhancements
+* added tests
 
 Version 0.6.0
 -------------

@@ -36,7 +36,7 @@
   "Returns the value rounded financially according to the given precision"
   [precision x]
   (if (and (float? x) (> precision 0))
-    (* (m/sign x) (/ (m/floor (+ (* (m/abs x) (m/pow 10 precision)) 0.5)) (m/pow 10 precision)))
+    (* (m/sign x) (/ (m/floor (+ (* (abs x) (m/pow 10 precision)) 0.5)) (m/pow 10 precision)))
     x))
 
 (defn percent

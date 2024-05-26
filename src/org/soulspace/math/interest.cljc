@@ -10,7 +10,7 @@
 ;;;;   You must not remove this notice, or any other, from this software.
 ;;;;
 (ns org.soulspace.math.interest
-  (:require [org.soulspace.math.core :as m]))
+  (:require [clojure.math :as m]))
 
 ;;;
 ;;; Functions for annuity credits and interest
@@ -36,7 +36,7 @@
   "Returns the value rounded financially according to the given precision"
   [precision x]
   (if (and (float? x) (> precision 0))
-    (* (m/sign x) (/ (m/floor (+ (* (abs x) (m/pow 10 precision)) 0.5)) (m/pow 10 precision)))
+    (* (m/signum x) (/ (m/floor (+ (* (abs x) (m/pow 10 precision)) 0.5)) (m/pow 10 precision)))
     x))
 
 (defn percent

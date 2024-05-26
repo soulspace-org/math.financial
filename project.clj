@@ -1,4 +1,4 @@
-(defproject org.soulspace.clj/math.financial "0.7.1-SNAPSHOT"
+(defproject org.soulspace.clj/math.financial "0.8.0-SNAPSHOT"
   :description "The math.financial library contains financial math functions in Clojure."
   :url "https://github.com/soulspace-org/math.financial"
   :license {:name "Eclipse Public License"

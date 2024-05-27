@@ -10,7 +10,7 @@
   :lein-tools-deps/config {:config-files [:install :user :project]}
 
 ;  :dependencies [[org.clojure/clojure "1.11.1"]
-;                 [org.soulspace.clj/math.core "0.9.0"]]
+;                 [org.soulspace.clj/math.core "1.0.0-SNAPSHOT"]]
 
   :test-paths ["test"]
   :scm {:name "git" :url "https://github.com/soulspace-org/math.financial"}

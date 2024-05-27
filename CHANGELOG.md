@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+Version 0.8.0
+-------------
+* switched to clojure.math instead of math.core
+
 Version 0.7.1
 -------------
 * updated to math.core 0.9.0
